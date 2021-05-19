@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tutorial.tdd.tutorialTdd.CalculatorTddTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 10.034 s <<< FAILURE! - in tutorial.tdd.tutorialTdd.CalculatorTddTest
+testSumWithAssertTimeout  Time elapsed: 9.974 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: execution exceeded timeout of 5000 ms by 5002 ms
+	at tutorial.tdd.tutorialTdd.CalculatorTddTest.testSumWithAssertTimeout(CalculatorTddTest.java:104)
+
