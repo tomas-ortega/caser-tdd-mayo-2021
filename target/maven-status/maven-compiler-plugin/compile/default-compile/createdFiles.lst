@@ -1,1 +1,7 @@
+tutorial/tdd/tutorialTdd/domain/BookDTO.class
 tutorial/tdd/tutorialTdd/CalculatorTdd.class
+tutorial/tdd/tutorialTdd/restapi/BookRestAPI.class
+tutorial/tdd/tutorialTdd/bs/DbConnection.class
+tutorial/tdd/tutorialTdd/PairNumber.class
+tutorial/tdd/tutorialTdd/bs/BookBS.class
+tutorial/tdd/tutorialTdd/dao/BookDAO.class

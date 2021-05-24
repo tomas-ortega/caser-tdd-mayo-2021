@@ -1,1 +1,11 @@
+tutorial/tdd/tutorialTdd/CalculatorTddNestedTest.class
+tutorial/tdd/tutorialTdd/dbunit/UtilsDbUnit.class
+tutorial/tdd/tutorialTdd/CalculatorTddNestedTest$CalculatorTestMultiply.class
+tutorial/tdd/tutorialTdd/CalculatorTddHamcrestTest.class
+tutorial/tdd/tutorialTdd/CalculatorTddNestedTest$CalculatorTestSum.class
+tutorial/tdd/tutorialTdd/bs/BookBSTestHelper.class
+tutorial/tdd/tutorialTdd/bs/BookBSTest.class
+tutorial/tdd/tutorialTdd/dbunit/BookDAOTest.class
 tutorial/tdd/tutorialTdd/CalculatorTddTest.class
+tutorial/tdd/tutorialTdd/BussinessTest.class
+tutorial/tdd/tutorialTdd/AmazonUIHtmlUnitTest.class

@@ -1,1 +1,7 @@
+/home/java-testing/java-tutorial-tdd/tutorialTdd/src/main/java/tutorial/tdd/tutorialTdd/bs/DbConnection.java
+/home/java-testing/java-tutorial-tdd/tutorialTdd/src/main/java/tutorial/tdd/tutorialTdd/domain/BookDTO.java
 /home/java-testing/java-tutorial-tdd/tutorialTdd/src/main/java/tutorial/tdd/tutorialTdd/CalculatorTdd.java
+/home/java-testing/java-tutorial-tdd/tutorialTdd/src/main/java/tutorial/tdd/tutorialTdd/bs/BookBS.java
+/home/java-testing/java-tutorial-tdd/tutorialTdd/src/main/java/tutorial/tdd/tutorialTdd/PairNumber.java
+/home/java-testing/java-tutorial-tdd/tutorialTdd/src/main/java/tutorial/tdd/tutorialTdd/dao/BookDAO.java
+/home/java-testing/java-tutorial-tdd/tutorialTdd/src/main/java/tutorial/tdd/tutorialTdd/restapi/BookRestAPI.java

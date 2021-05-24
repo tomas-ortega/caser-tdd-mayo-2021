@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTimeout;
 import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 import java.time.Duration;
 
@@ -103,7 +104,6 @@ public class CalculatorTddTest {
 		
 		assertTimeout(Duration.ofSeconds(5), () -> {
 			myCalculator.sum(4, 5);
-			Thread.sleep(10000);
 		});
 	}
 	
@@ -113,8 +113,24 @@ public class CalculatorTddTest {
 		
 		assertTimeoutPreemptively(Duration.ofSeconds(5), () -> {
 			myCalculator.sum(4,  5);
-			Thread.sleep(4000);
 		});
+	}
+	
+	@Test
+	@DisplayName("Test Sum")
+	public void testSumWithPositiveIntegerNumbersWithAssumption() {
+		CalculatorTdd myCalculator = new CalculatorTdd();	
+		
+		assumingThat(System.getProperty("os.name").equals("Linux"),
+				() -> {
+					Integer sumResult = null;
+					sumResult = myCalculator.sum(2, 2);
+					
+					System.out.println("Execution test SUM (ASSUMING THAT)!!!");
+					
+					assertNotNull(sumResult);
+					assertTrue(sumResult.equals(4));
+				});
 	}
 	
 	@AfterEach
